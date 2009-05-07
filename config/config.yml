@@ -1,0 +1,21 @@
+# Configuration options can be accessed as
+#   configatron.site_name
+
+development: &local
+    site_name: Enviromental Auditor 
+    site_url: ehab.quran@yahoo.com
+    
+    company_name: Ehab A. Al-Quran
+    admin_email: ehab.quran@yahoo.com
+    
+    support_name: Ehab A. Al-Quran
+    support_email: ehab.quran@yahoo.com
+
+production:
+  <<: *local
+  
+staging:
+  <<: *local
+
+test:
+  <<: *local

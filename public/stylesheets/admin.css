@@ -1,0 +1,116 @@
+body{background:#DFE5FF;}
+.green{padding:0px;color:#72C24A;}
+.red{padding:0px;color:#C25E4A;}
+/* header
+ * ------------------------------------------------------------------------- */
+#header {background: #4B4B4B;}
+#tabs {	height: 28px;}
+#tabs a {
+	color: #fff;
+	background-color:transparent;
+	padding: 5px 8px 7px 8px;
+ 	-moz-border-radius-topright: 3px; -moz-border-radius-topleft: 3px;
+	-khtml-border-radius-topright: 3px; -khtml-border-radius-topleft: 3px;
+	-webkit-border-radius-topright: 3px; -webkit-border-radius-topleft: 3px;
+	border-radius: 3px;
+}
+#tabs li a:hover {color:#4B4B4B;background: #DFE5FF;}
+#tabs li a.current {color: #6A99AD;background-color: #DFE5FF;}
+
+/* left and right columns
+ * ------------------------------------------------------------------------- */
+#left{border: 2px solid #D1D4DF;}
+#left h2.head{ color:#fff; background: #024B77 url(/images/admin/bar.png) repeat-x top left; }
+
+#right{border: 2px solid #D1D4DF;background-color:#fff;	padding: 0 0 1em 0; margin-left:1.5em;}
+#right h2{background-color:#D3DBFF;	padding: 0.5em;  }
+#right h2.help{background-color:#F6E172;}
+#right a:hover {	color: #204CA0; }
+#right li{line-height:1.6em;} 
+
+
+/* buttons and links
+ * ------------------------------------------------------------------------- */
+
+.icon{border:0px;float:none;margin:0px 0px 0px 0px;padding:0;vertical-align: middle;padding-right: 1px;}
+.iconborder{	border: 1px solid #D3D3D3;}
+
+.cssbutton{
+	margin:0px;
+	background: #024B77 url(/images/admin/bar.png) repeat-x top left;
+	height:45px;
+} 
+.cssbutton a{   
+	padding: 5px 8px 7px 8px;
+	-moz-border-radius: 3px;
+	text-decoration:none;
+	line-height:45px;
+	background-color:#E0E3EF;
+}
+.cssbutton span{
+	background: transparent url(/images/icons/add.png) no-repeat top left;
+	padding-left:18px;
+} 
+
+
+.stateflag{float:left; font-size:12px; color:#fff;}
+.stateflag span{float:left;padding:4px;}
+.stateflag .aberto{background:#00BADF;}
+.stateflag .comrespostas{background:#FF9900; }
+.stateflag .adjudicado{background:#91AD1C; }
+.stateflag .concluido{background:#42921F; }
+.stateflag .anulado{background:#FF0000;}
+
+
+/* jQuery TreeTable Core 2.0 stylesheet
+ * ========================================================================= */
+
+/* jquery.treeTable.collapsible
+ * ------------------------------------------------------------------------- */
+.treeTable tr td .expander {
+  background-position: left center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0;
+  zoom: 1; /* IE7 Hack */
+}
+
+.treeTable tr.collapsed td .expander {
+  background-image: url(/images/admin/toggle-expand-dark.png);
+}
+
+.treeTable tr.expanded td .expander {
+  background-image: url(/images/admin/toggle-collapse-dark.png);
+}
+
+/* jquery.treeTable.sortable
+ * ------------------------------------------------------------------------- */
+.treeTable tr.selected, .treeTable tr.accept {
+  background-color: #3875d7;
+  color: #fff;
+}
+
+.treeTable tr.collapsed.selected td .expander, .treeTable tr.collapsed.accept td .expander {
+  background-image: url(/images/admin/toggle-expand-light.png);
+}
+
+.treeTable tr.expanded.selected td .expander, .treeTable tr.expanded.accept td .expander {
+  background-image: url(/images/admin/toggle-collapse-light.png);
+}
+
+.treeTable .ui-draggable-dragging {
+  color: #000;
+  z-index: 1;
+}
+table span.file {
+background-image:url(/images/admin/page_white_text.png);
+}
+table span.folder {
+background-image:url(/images/admin/folder.png);
+}
+
+table span {
+background-position:left center;
+background-repeat:no-repeat;
+padding:0.2em 0 0.2em 1.5em;
+}

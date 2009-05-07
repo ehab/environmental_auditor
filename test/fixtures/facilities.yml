@@ -1,0 +1,36 @@
+# == Schema Information
+# Schema version: 20090428231621
+#
+# Table name: facilities
+#
+#  id             :integer(11)     not null, primary key
+#  name           :string(255)
+#  address        :text
+#  tel            :string(255)
+#  fax            :string(255)
+#  contact_person :string(255)
+#  notes          :text
+#  user_id        :integer(11)
+#  created_at     :datetime
+#  updated_at     :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  address: MyText
+  tel: MyString
+  fax: MyString
+  contact_person: MyString
+  notes: MyText
+  user_id: 1
+
+two:
+  name: MyString
+  address: MyText
+  tel: MyString
+  fax: MyString
+  contact_person: MyString
+  notes: MyText
+  user_id: 1

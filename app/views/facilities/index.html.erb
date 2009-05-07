@@ -1,0 +1,7 @@
+<h3>List of facilities for <%= current_user.login %></h3>
+
+	<% for facility in @facilities %>
+		<p> <%= facility.id %></p>
+	<% end %>
+	
+<h3><%= link_to "Add New Facility" , new_facility_path %></h3>

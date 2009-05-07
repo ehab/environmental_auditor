@@ -1,0 +1,45 @@
+# == Schema Information
+# Schema version: 20090428231621
+#
+# Table name: questions
+#
+#  id                :integer(11)     not null, primary key
+#  original_id       :string(255)
+#  leg_group         :integer(11)
+#  number            :string(255)
+#  ar                :text
+#  english           :text
+#  short_ref_ar      :string(255)
+#  short_ref_en      :string(255)
+#  compliance_answer :text
+#  full_ref_ar       :text
+#  full_ref_en       :text
+#  created_at        :datetime
+#  updated_at        :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  original_id: MyString
+  leg_group: 1
+  number: MyString
+  ar: MyText
+  english: MyText
+  short_ref_ar: MyString
+  short_ref_en: MyString
+  compliance_answer: MyText
+  full_ref_ar: MyText
+  full_ref_en: MyText
+
+two:
+  original_id: MyString
+  leg_group: 1
+  number: MyString
+  ar: MyText
+  english: MyText
+  short_ref_ar: MyString
+  short_ref_en: MyString
+  compliance_answer: MyText
+  full_ref_ar: MyText
+  full_ref_en: MyText

@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  facility_id: 1
+  question_id: 1
+  leg_group: 1
+  answer: MyText
+  answer_comments: MyText
+  evidence: MyString
+  evidence: 
+  decision: MyString
+
+two:
+  facility_id: 1
+  question_id: 1
+  leg_group: 1
+  answer: MyText
+  answer_comments: MyText
+  evidence: MyString
+  evidence: 
+  decision: MyString
