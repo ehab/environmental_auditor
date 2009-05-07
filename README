@@ -1,0 +1,5 @@
+
+rake db:create 
+rake gems:install
+rake db:migrate 
+
